@@ -11,8 +11,8 @@ Instruction memory = 255 words
 Data memory = 16 words
 
 Instruction encoding = [11:8] = opcode (4 bits)
-                       [7:5] = rd (3 bits)
-                       [4:2] = rs (3 bits)
+                       [7:5] = rd = write address (3 bits)
+                       [4:2] = rs = source address (3 bits)
 
 opcodes:
 0000: {carry, y} = a + b; // Addition 
